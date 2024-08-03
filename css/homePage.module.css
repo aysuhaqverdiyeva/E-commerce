@@ -1,0 +1,545 @@
+.homePage {
+  padding: 0px 0px 50px 0px;
+  position: relative;
+}
+.homePage .home_catagories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 40px 5% 0px 5%;
+}
+.homePage .home_catagories .home_catagories_start {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.homePage .home_catagories .home_catagories_start .home_catagories_title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25.2px;
+}
+.homePage .home_catagories .home_catagories_start .home_catagories_btn {
+  width: 94px;
+  height: 32px;
+}
+.homePage .home_catagories .home_catagories_boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  width: 100%;
+  min-width: 100%;
+  height: 126px;
+  overflow-x: auto;
+}
+.homePage .home_products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 17px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 70px 5% 0px 5%;
+}
+.homePage .home_products .home_products_title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25.2px;
+  text-align: center;
+}
+.homePage .home_products .home_products_content {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: center;
+  color: #818b9c;
+  width: 90%;
+}
+.homePage .home_products .home_products_boxes {
+  display: grid;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 35px;
+}
+.homePage .home_products .home_products_boxes .loading {
+  font-size: 30px;
+}
+.homePage .home_products .home_products_boxes .link {
+  text-decoration: none;
+}
+.homePage .home_products .home_products_btn {
+  width: 131px;
+  height: 48px;
+  margin-top: 25px;
+}
+.homePage .home_ipadAd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 25px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fcece1;
+  border-radius: 16px;
+  margin: 80px 5% 0px 5%;
+  padding: 20px;
+  position: static;
+}
+.homePage .home_ipadAd .ipadImgEmpty {
+  display: none;
+}
+.homePage .home_ipadAd img {
+  position: static;
+  width: 157px;
+  height: 176px;
+}
+.homePage .home_ipadAd .home_ipadAd_end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: auto;
+}
+.homePage .home_ipadAd .home_ipadAd_end .home_ipadAd_title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25.2px;
+}
+.homePage .home_ipadAd .home_ipadAd_end .home_ipadAd_content {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #818b9c;
+}
+.homePage .home_ipadAd .home_ipadAd_end .home_ipad_btns {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.homePage .home_ipadAd .home_ipadAd_end .home_ipad_btns .home_ipadAd_btnBuy {
+  width: 133px;
+  height: 48px;
+  background-color: #1e4c2f;
+  color: white;
+}
+.homePage .home_ipadAd .home_ipadAd_end .home_ipad_btns .link .home_ipadAd_btnView {
+  width: 133px;
+  height: 48px;
+}
+
+.home_article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 80px 5% 0px 5%;
+  width: 100%;
+}
+.home_article .home_article_start {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.home_article .home_article_start .home_article_title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25.2px;
+}
+.home_article .home_article_start .home_article_btn {
+  width: 94px;
+  height: 32px;
+}
+.home_article .home_article_boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+@media only screen and (min-width: 767px) {
+  .homePage {
+    padding: 0px 0px 90px 0px;
+    width: 100%;
+  }
+  .homePage .home_catagories {
+    margin: 60px 8% 0px 8%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 25px;
+  }
+  .homePage .home_catagories .home_catagories_start .home_catagories_title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39.2px;
+  }
+  .homePage .home_catagories .home_catagories_start .home_catagories_btn {
+    width: 112px;
+    height: 42px;
+  }
+  .homePage .home_catagories .home_catagories_boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+    height: 143px;
+  }
+  .homePage .home_products {
+    padding: 110px 8% 0px 8%;
+    margin: 0px;
+  }
+  .homePage .home_products .home_products_title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39.2px;
+  }
+  .homePage .home_products .home_products_content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+  }
+  .homePage .home_products .justcont {
+    width: 100%;
+  }
+  .homePage .home_products .justcont .home_products_boxes {
+    width: 100%;
+    display: grid;
+    justify-items: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .homePage .home_products .home_products_btn {
+    width: 180px;
+  }
+  .homePage .home_ipadAd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 25px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 130px 8% 0px 8%;
+    padding: 0px 30px;
+    position: relative;
+  }
+  .homePage .home_ipadAd .ipadImgEmpty {
+    display: block;
+    width: 300px;
+    height: 340px;
+  }
+  .homePage .home_ipadAd img {
+    width: 322px;
+    height: 362.46px;
+    position: absolute;
+    left: 10px;
+  }
+  .homePage .home_ipadAd .home_ipadAd_end {
+    width: 50%;
+  }
+  .homePage .home_ipadAd .home_ipadAd_end .home_ipadAd_title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39.2px;
+  }
+  .homePage .home_ipadAd .home_ipadAd_end .home_ipadAd_content {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+  }
+  .homePage .home_ipadAd .home_ipadAd_end .home_ipad_btns .home_ipadAd_btnBuy {
+    width: 180px;
+  }
+  .homePage .home_ipadAd .home_ipadAd_end .home_ipad_btns .link .home_ipadAd_btnView {
+    width: 180px;
+  }
+  .homePage .home_article {
+    padding: 90px 8% 0px 8%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 60px;
+  }
+  .homePage .home_article .home_article_start .home_article_title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39.2px;
+  }
+  .homePage .home_article .home_article_start .home_article_btn {
+    width: 112px;
+    height: 42px;
+  }
+  .homePage .home_article .home_article_boxes {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .homePage {
+    padding: 0px 0px 100px 0px;
+  }
+  .homePage .home_catagories {
+    margin: 70px 12% 0px 12%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 35px;
+  }
+  .homePage .home_catagories .home_catagories_start .home_catagories_title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39.2px;
+  }
+  .homePage .home_catagories .home_catagories_start .home_catagories_btn {
+    height: 45px;
+  }
+  .homePage .home_catagories .home_catagories_boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+    height: 198px;
+  }
+  .homePage .home_products {
+    padding: 110px 12% 0px 12%;
+  }
+  .homePage .home_products .home_products_title {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 53.2px;
+  }
+  .homePage .home_products .home_products_content {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+  }
+  .homePage .home_products .justcont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .homePage .home_products .justcont .home_products_boxes {
+    width: auto;
+    display: grid;
+    justify-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    gap: 25px;
+    grid-template-columns: 282px 282px 282px;
+  }
+  .homePage .home_products .home_products_btn {
+    width: 200px;
+  }
+  .homePage .home_ipadAd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 80px;
+    margin: 130px 12% 0px 12%;
+  }
+  .homePage .home_ipadAd .ipadImgEmpty {
+    width: 350px;
+    height: 400px;
+  }
+  .homePage .home_ipadAd img {
+    width: 382px;
+    height: 430px;
+    left: 15%;
+  }
+  .homePage .home_ipadAd .home_ipadAd_end {
+    width: 30%;
+  }
+  .homePage .home_ipadAd .home_ipadAd_end .home_ipadAd_title {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 53.2px;
+  }
+  .homePage .home_ipadAd .home_ipadAd_end .home_ipad_btns .home_ipadAd_btnBuy {
+    width: 200px;
+    height: 53px;
+  }
+  .homePage .home_ipadAd .home_ipadAd_end .home_ipad_btns .link .home_ipadAd_btnView {
+    width: 200px;
+    height: 53px;
+  }
+  .homePage .home_article {
+    padding: 90px 12% 0px 12%;
+  }
+  .homePage .home_article .home_article_start .home_article_title {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 53.2px;
+  }
+  .homePage .home_article .home_article_start .home_article_btn {
+    height: 45px;
+  }
+  .homePage .home_article .home_article_boxes {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}

@@ -1,0 +1,272 @@
+.ProductBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 18px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 155px;
+}
+.ProductBox .boxPart1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 130px;
+  border-radius: 8px;
+}
+.ProductBox .boxPart1 .heart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  border-radius: 50px;
+  background-color: white;
+  font-size: 20px;
+}
+.ProductBox .boxPart1 .boxImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90px;
+  height: 90px;
+}
+.ProductBox .boxPart1 .boxImg img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+.ProductBox .boxPart2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 4px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  width: 100%;
+}
+.ProductBox .boxPart2 .nameAndPrice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.6px;
+}
+.ProductBox .boxPart2 .nameAndPrice .h1 {
+  height: 20px;
+  width: 60%;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+.ProductBox .boxPart2 .nameAndPrice .h1 h1 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.6px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ProductBox .boxPart2 .nameAndPrice .price {
+  color: #1d9e34;
+}
+.ProductBox .boxPart2 .place {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #818b9c;
+}
+.ProductBox .boxPart2 .boxEnd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
+}
+.ProductBox .boxPart2 .boxEnd .star {
+  color: #ffa439;
+  font-size: 17px;
+}
+.ProductBox .boxPart2 .boxEnd .ratingNumber {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+.ProductBox .boxPart2 .boxEnd .soldAmount {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  margin-left: 14px;
+}
+
+@media only screen and (min-width: 767px) {
+  .ProductBox {
+    width: 198px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+  }
+  .ProductBox .boxPart1 {
+    width: 198px;
+    height: 190px;
+  }
+  .ProductBox .boxPart1 .heart {
+    width: 36px;
+    height: 36px;
+  }
+  .ProductBox .boxPart1 .boxImg {
+    width: 120px;
+    height: 120px;
+  }
+  .ProductBox .boxPart2 .nameAndPrice {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+  }
+  .ProductBox .boxPart2 .nameAndPrice .h1 {
+    height: 22px;
+    width: 68%;
+  }
+  .ProductBox .boxPart2 .nameAndPrice .h1 h1 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+  }
+  .ProductBox .boxPart2 .place {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+  .ProductBox .boxPart2 .boxEnd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 6px;
+  }
+  .ProductBox .boxPart2 .boxEnd .star {
+    font-size: 20px;
+  }
+  .ProductBox .boxPart2 .boxEnd .ratingNumber {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+  .ProductBox .boxPart2 .boxEnd .soldAmount {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .ProductBox {
+    width: 282px;
+  }
+  .ProductBox .boxPart1 {
+    width: 282px;
+    height: 280px;
+  }
+  .ProductBox .boxPart1 .boxImg {
+    width: 180px;
+    height: 180px;
+  }
+  .ProductBox .boxPart2 .nameAndPrice {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .ProductBox .boxPart2 .nameAndPrice h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .ProductBox .boxPart2 .nameAndPrice .h1 {
+    height: 28px;
+    width: 70%;
+  }
+  .ProductBox .boxPart2 .nameAndPrice .h1 h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .ProductBox .boxPart2 .place {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+  }
+  .ProductBox .boxPart2 .boxEnd .ratingNumber {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+  }
+  .ProductBox .boxPart2 .boxEnd .soldAmount {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+  }
+}

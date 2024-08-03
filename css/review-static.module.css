@@ -1,0 +1,873 @@
+.reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px 0px;
+}
+.reviews .reviews_title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+}
+.reviews .reviews_general {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #e4e9ee;
+  border-radius: 12px;
+  width: 100%;
+  padding: 10px;
+}
+.reviews .reviews_general .reviews_general_part1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+.reviews .reviews_general .reviews_general_part1 h1 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25.2px;
+  position: relative;
+  border: 5px solid #e4e9ee;
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.reviews .reviews_general .reviews_general_part1 h1::before {
+  content: "";
+  width: 64px;
+  height: 64px;
+  border: 5px solid #ffa439;
+  border-radius: 50px;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+}
+.reviews .reviews_general .reviews_general_part1 span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 3px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.reviews .reviews_general .reviews_general_part1 span .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3px;
+}
+.reviews .reviews_general .reviews_general_part1 span .stars .star {
+  font-size: 20px;
+  color: #ffa439;
+}
+.reviews .reviews_general .reviews_general_part1 span h2 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19.2px;
+}
+.reviews .reviews_general .reviews_general_part2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 5px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+.reviews .reviews_general .reviews_general_part2 span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.reviews .reviews_general .reviews_general_part2 span h1 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19.2px;
+  width: 24px;
+}
+.reviews .reviews_general .reviews_general_part2 span .star {
+  font-size: 16px;
+  color: #ffa439;
+}
+.reviews .reviews_general .reviews_general_part2 span div {
+  width: 201px;
+  background-color: #e4e9ee;
+  border-radius: 8px;
+  height: 8px;
+  position: relative;
+}
+.reviews .reviews_general .reviews_general_part2 span div .fullDiv {
+  position: absolute;
+  width: 80%;
+  background-color: #1d9e34;
+  border-radius: 8px;
+  height: 8px;
+}
+.reviews .reviews_general .reviews_general_part2 span div .fullDivLittle {
+  position: absolute;
+  width: 20%;
+  background-color: #1d9e34;
+  border-radius: 8px;
+  height: 8px;
+}
+.reviews .reviews_general .reviews_general_part2 span div .fullDivEmpty {
+  position: absolute;
+  width: 20%;
+  background-color: #e4e9ee;
+  border-radius: 8px;
+  height: 8px;
+}
+.reviews .reviews_general .reviews_general_part2 span h2 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19.2px;
+  width: 39px;
+  text-align: end;
+}
+.reviews .filter_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 13px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+.reviews .filter_list section .reviewList_title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+}
+.reviews .filter_list section span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+}
+.reviews .filter_list section span .reviewList_btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.reviews .filter_list section span .reviewList_btns button {
+  border: 1px solid #e4e9ee;
+  border-radius: 8px;
+  height: 32px;
+  padding: 0px 10px;
+  background: none;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19.2px;
+}
+.reviews .filter_list section span .reviewList_btns .reviewList_btn_active {
+  border: 1px solid #1d9e34;
+  color: #1d9e34;
+}
+.reviews .filter_list section span .filterIcn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  height: 32px;
+  width: 32px;
+  border: 1px solid #e4e9ee;
+  border-radius: 8px;
+}
+.reviews .filter_list section .review_boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+.reviews .filter_list section .review_boxes .review_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 12px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  border-bottom: 1px solid #e4e9ee;
+  padding: 20px 0px;
+}
+.reviews .filter_list section .review_boxes .review_box .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.reviews .filter_list section .review_boxes .review_box .stars .star {
+  font-size: 20px;
+  color: #ffa439;
+}
+.reviews .filter_list section .review_boxes .review_box .titleAnddate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.reviews .filter_list section .review_boxes .review_box .titleAnddate p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.6px;
+}
+.reviews .filter_list section .review_boxes .review_box .titleAnddate h1 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #818b9c;
+}
+.reviews .filter_list section .review_boxes .review_box .reviewBox_end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.reviews .filter_list section .review_boxes .review_box .reviewBox_end span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+}
+.reviews .filter_list section .review_boxes .review_box .reviewBox_end span img {
+  height: 24px;
+  width: 24px;
+  border-radius: 50px;
+}
+.reviews .filter_list section .review_boxes .review_box .reviewBox_end span h1 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19.2px;
+}
+.reviews .filter_list section .review_boxes .review_box .reviewBox_end span button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  height: 32px;
+  border: 1px solid #e4e9ee;
+  border-radius: 8px;
+  background: none;
+  padding: 0px 10px;
+}
+.reviews .filter_list section .review_boxes .review_box_last {
+  border-bottom: none;
+}
+.reviews .filter_list section .review_boxes .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+.reviews .filter_list section .review_boxes .pagination h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19.2px;
+  border-radius: 8px;
+  border: 1px solid #e4e9ee;
+  height: 41px;
+  width: 41px;
+  padding: 0px 10px;
+  color: #818b9c;
+  cursor: pointer;
+}
+.reviews .filter_list section .review_boxes .pagination .angle {
+  color: #1d9e34;
+  font-size: 18px;
+  margin-left: 13px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 767px) {
+  .reviews {
+    padding: 30px 0px;
+  }
+  .reviews .reviews_title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .reviews .reviews_general {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 24px;
+    width: 100%;
+  }
+  .reviews .reviews_general .reviews_general_part1 h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    width: 84px;
+    height: 84px;
+  }
+  .reviews .reviews_general .reviews_general_part1 h1::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+  }
+  .reviews .reviews_general .reviews_general_part1 span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 3px;
+  }
+  .reviews .reviews_general .reviews_general_part1 span h2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.4px;
+  }
+  .reviews .reviews_general .reviews_general_part1 span .stars .star {
+    font-size: 18px;
+  }
+  .reviews .reviews_general .reviews_general_part2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 12px;
+    width: 55%;
+  }
+  .reviews .reviews_general .reviews_general_part2 span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 4px;
+    width: 100%;
+  }
+  .reviews .reviews_general .reviews_general_part2 span h1 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.4px;
+    width: 24px;
+  }
+  .reviews .reviews_general .reviews_general_part2 span .star {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  .reviews .reviews_general .reviews_general_part2 span div {
+    width: 100%;
+    margin-right: 20px;
+  }
+  .reviews .reviews_general .reviews_general_part2 span h2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: start;
+    width: 39px;
+  }
+  .reviews .filter_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 13px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .reviews .filter_list .filter_boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 25px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px 15px 20px 15px;
+    border: 1px solid #e4e9ee;
+    border-radius: 12px;
+    width: 40%;
+  }
+  .reviews .filter_list .filter_boxes .filter_title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25.2px;
+    padding: 15px 0px;
+    border-bottom: 1px solid #e4e9ee;
+    width: 100%;
+  }
+  .reviews .filter_list .filter_boxes .filter_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 8px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    border-bottom: 1px solid #e4e9ee;
+    padding-bottom: 25px;
+  }
+  .reviews .filter_list .filter_boxes .filter_box .filter_boxTitle_holder {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  .reviews .filter_list .filter_boxes .filter_box .filter_boxTitle_holder .filter_box_title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+  }
+  .reviews .filter_list .filter_boxes .filter_box .filterUl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 8px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .reviews .filter_list .filter_boxes .filter_box .filterUl .li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 8px;
+    width: 100%;
+    list-style: none;
+  }
+  .reviews .filter_list .filter_boxes .filter_box .filterUl .li .checkbox {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #c4c8cc;
+  }
+  .reviews .filter_list .filter_boxes .filter_box .filterUl .li .star {
+    font-size: 15px;
+    color: #ffa439;
+  }
+  .reviews .filter_list .filter_boxes .filter_box .filterUl .li div {
+    color: #818b9c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+  .reviews .filter_list .filter_boxes .filter_box_last {
+    border-bottom: none;
+    padding-bottom: 0px;
+  }
+  .reviews .filter_list section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .reviews .filter_list section .reviewList_title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .reviews .filter_list section span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .reviews .filter_list section span .reviewList_btns button {
+    height: 44px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.4px;
+  }
+  .reviews .filter_list section .review_boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2px;
+  }
+  .reviews .filter_list section .review_boxes .review_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 16px;
+    padding: 30px 0px;
+  }
+  .reviews .filter_list section .review_boxes .review_box .stars .star {
+    font-size: 18px;
+  }
+  .reviews .filter_list section .review_boxes .review_box .titleAnddate p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25.2px;
+  }
+  .reviews .filter_list section .review_boxes .review_box .titleAnddate h1 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+  }
+  .reviews .filter_list section .review_boxes .review_box .reviewBox_end span img {
+    height: 32px;
+    width: 32px;
+  }
+  .reviews .filter_list section .review_boxes .review_box .reviewBox_end span h1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+  }
+  .reviews .filter_list section .review_boxes .review_box .reviewBox_end span button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 7px;
+    height: 50px;
+    padding: 0px 12px;
+  }
+  .reviews .filter_list section .review_boxes .pagination h1 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.4px;
+    height: 44px;
+    width: 44px;
+  }
+  .reviews .filter_list section .review_boxes .pagination .angle {
+    font-size: 20px;
+    margin-left: 18px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .reviews {
+    padding: 40px 0px;
+  }
+  .reviews .reviews_general .reviews_general_part1 span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 3px;
+  }
+  .reviews .reviews_general .reviews_general_part1 span h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+  }
+  .reviews .reviews_general .reviews_general_part2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 12px;
+    width: 65%;
+  }
+  .reviews .reviews_general .reviews_general_part2 span h1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+    width: 25px;
+  }
+  .reviews .reviews_general .reviews_general_part2 span h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+  }
+  .reviews .filter_list .filter_boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 25px;
+    width: 30%;
+  }
+  .reviews .filter_list .filter_boxes .filter_title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .reviews .filter_list .filter_boxes .filter_box .filterUl .li .checkbox {
+    width: 24px;
+    height: 24px;
+  }
+  .reviews .filter_list .filter_boxes .filter_box .filterUl .li .star {
+    font-size: 17px;
+  }
+  .reviews .filter_list .filter_boxes .filter_box .filterUl .li div {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+  }
+  .reviews .filter_list section {
+    width: 65%;
+  }
+}

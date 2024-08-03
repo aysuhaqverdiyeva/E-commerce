@@ -1,0 +1,569 @@
+.searchResult {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 40px 5% 40px 5%;
+}
+.searchResult .search_start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+.searchResult .search_start .search_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+.searchResult .search_start .search_nav h1 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19.2px;
+}
+.searchResult .search_start .search_nav .h1_green {
+  color: #1d9e34;
+}
+.searchResult .search_start .search_nav .angle {
+  font-size: 12px;
+  color: #818b9c;
+}
+.searchResult .search_start .showBoxAndIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.searchResult .search_start .showBoxAndIcons .search_showBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.searchResult .search_start .showBoxAndIcons .search_showBox .search_showing {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25.2px;
+}
+.searchResult .search_start .showBoxAndIcons .search_showBox .search_showNumber {
+  color: #818b9c;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+.searchResult .search_start .showBoxAndIcons .search_sortAndIcons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+.searchResult .search_start .showBoxAndIcons .search_sortAndIcons .search_sortAndIcons_part1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.searchResult .search_start .showBoxAndIcons .search_sortAndIcons .search_sortAndIcons_part1 select {
+  height: 32px;
+  border: 1px solid #e4e9ee;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19.2px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0px 10px;
+}
+.searchResult .search_start .iconsBigSmall {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.searchResult .search_start .iconsBigSmall .filterIcn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #e4e9ee;
+  border-radius: 8px;
+}
+.searchResult .search_start .iconsBigSmall .border {
+  width: 1px;
+  height: 24px;
+  background-color: #e4e9ee;
+}
+.searchResult .search_start .iconsBigSmall .viewSmall {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  background-color: #1e4c2f;
+  border-radius: 8px;
+}
+.searchResult .search_start .iconsBigSmall .viewSmall .pencere {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 32px;
+  height: 32px;
+}
+.searchResult .search_start .iconsBigSmall .viewSmall .pencere .pencereIcon {
+  display: grid;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 2px;
+  grid-template-columns: 1fr 1fr;
+}
+.searchResult .search_start .iconsBigSmall .viewSmall .pencere .pencereIcon .pencerePart {
+  background-color: white;
+  width: 7px;
+  height: 7px;
+  border-radius: 1px;
+}
+.searchResult .search_start .iconsBigSmall .viewLarge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  border: 1px solid #e4e9ee;
+  border-radius: 8px;
+}
+.searchResult .filterAndBoxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  width: 100%;
+  position: relative;
+}
+.searchResult .filterAndBoxes .x {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  width: 10%;
+  height: 35px;
+  color: white;
+  border-radius: 5px;
+  z-index: 100;
+}
+.searchResult .filterAndBoxes .classFilter {
+  width: 90%;
+  height: 100%;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 99;
+  background-color: white;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  overflow-y: auto;
+}
+.searchResult .filterAndBoxes .paginationAndBoxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.searchResult .filterAndBoxes .paginationAndBoxes .searchResult_boxes {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+}
+.searchResult .filterAndBoxes .paginationAndBoxes .searchResult_boxes .link {
+  text-decoration: none;
+}
+.searchResult .filterAndBoxes .paginationAndBoxes .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+.searchResult .filterAndBoxes .paginationAndBoxes .pagination h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19.2px;
+  border-radius: 8px;
+  border: 1px solid #e4e9ee;
+  height: 41px;
+  width: 41px;
+  padding: 0px 10px;
+  color: #818b9c;
+  cursor: pointer;
+}
+.searchResult .filterAndBoxes .paginationAndBoxes .pagination .angle {
+  color: #1d9e34;
+  font-size: 18px;
+  margin-left: 13px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 767px) {
+  .searchResult {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 70px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 70px 8% 70px 8%;
+  }
+  .searchResult .search_start {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .searchResult .search_start .search_nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+  }
+  .searchResult .search_start .search_nav h1 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.4px;
+  }
+  .searchResult .search_start .search_nav .angle {
+    font-size: 12px;
+  }
+  .searchResult .search_start .showBoxAndIcons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .searchResult .search_start .showBoxAndIcons .search_showBox .search_showing {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .searchResult .search_start .showBoxAndIcons .search_showBox .search_showNumber {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+  .searchResult .search_start .showBoxAndIcons .search_sortAndIcons {
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+  }
+  .searchResult .search_start .showBoxAndIcons .search_sortAndIcons .search_sortAndIcons_part1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+  }
+  .searchResult .search_start .showBoxAndIcons .search_sortAndIcons .search_sortAndIcons_part1 .sort {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #818B9C;
+  }
+  .searchResult .search_start .showBoxAndIcons .search_sortAndIcons .search_sortAndIcons_part1 select {
+    height: 44px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.4px;
+  }
+  .searchResult .search_start .iconsBigSmall {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+  }
+  .searchResult .search_start .iconsBigSmall .viewSmall {
+    width: 44px;
+    height: 44px;
+  }
+  .searchResult .search_start .iconsBigSmall .viewSmall .pencere {
+    width: 44px;
+    height: 44px;
+  }
+  .searchResult .search_start .iconsBigSmall .viewSmall .pencere .pencereIcon .pencerePart {
+    width: 9px;
+    height: 9px;
+  }
+  .searchResult .search_start .iconsBigSmall .viewLarge {
+    width: 44px;
+    height: 44px;
+  }
+  .searchResult .filterAndBoxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 15px;
+  }
+  .searchResult .filterAndBoxes .paginationAndBoxes .searchResult_boxes {
+    width: auto;
+    display: grid;
+    justify-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 25px;
+  }
+  .searchResult .filterAndBoxes .paginationAndBoxes .pagination h1 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.4px;
+    height: 44px;
+    width: 44px;
+  }
+  .searchResult .filterAndBoxes .paginationAndBoxes .pagination .angle {
+    font-size: 20px;
+    margin-left: 18px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .searchResult {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 70px;
+    margin: 70px 12% 70px 12%;
+  }
+  .searchResult .search_start .search_nav h1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+  }
+  .searchResult .search_start .showBoxAndIcons .search_showBox .search_showing {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.6px;
+  }
+  .searchResult .search_start .showBoxAndIcons .search_showBox .search_showNumber {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+  }
+  .searchResult .search_start .showBoxAndIcons .search_sortAndIcons .search_sortAndIcons_part1 .sort {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+  }
+  .searchResult .filterAndBoxes .paginationAndBoxes .searchResult_boxes {
+    display: grid;
+    justify-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 25px;
+  }
+}

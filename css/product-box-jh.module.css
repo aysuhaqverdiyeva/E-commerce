@@ -1,0 +1,233 @@
+.ProductBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 128px;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+}
+.ProductBox .boxPart1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 128px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.ProductBox .boxPart1 .heart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  border-radius: 50px;
+  background-color: white;
+  font-size: 14px;
+}
+.ProductBox .boxPart1 .boxImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.ProductBox .boxPart1 .boxImg img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+.ProductBox .boxPart2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 4px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  width: 100%;
+  padding-left: 8px;
+  padding-bottom: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.ProductBox .boxPart2 .nameAndPrice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.8px;
+}
+.ProductBox .boxPart2 .nameAndPrice .h1 {
+  height: 17px;
+  width: 60%;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+.ProductBox .boxPart2 .nameAndPrice .h1 h1 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.8px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ProductBox .boxPart2 .nameAndPrice .price {
+  color: #1d9e34;
+}
+.ProductBox .boxPart2 .place {
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 14.4px;
+  color: #818b9c;
+}
+.ProductBox .boxPart2 .boxEnd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
+}
+.ProductBox .boxPart2 .boxEnd .star {
+  color: #ffa439;
+  font-size: 15px;
+}
+.ProductBox .boxPart2 .boxEnd .ratingNumber {
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 14.4px;
+}
+.ProductBox .boxPart2 .boxEnd .soldAmount {
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 14.4px;
+  margin-left: 14px;
+}
+
+@media only screen and (min-width: 767px) {
+  .ProductBox {
+    width: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0px;
+  }
+  .ProductBox .boxPart1 {
+    width: 150px;
+    height: 144px;
+  }
+  .ProductBox .boxPart1 .heart {
+    width: 24px;
+    height: 24px;
+  }
+  .ProductBox .boxPart1 .boxImg {
+    width: 120px;
+    height: 120px;
+  }
+  .ProductBox .boxPart2 .nameAndPrice {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.6px;
+  }
+  .ProductBox .boxPart2 .nameAndPrice .h1 {
+    height: 20px;
+    width: 68%;
+  }
+  .ProductBox .boxPart2 .nameAndPrice .h1 h1 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.6px;
+  }
+  .ProductBox .boxPart2 .place {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .ProductBox .boxPart2 .boxEnd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 6px;
+  }
+  .ProductBox .boxPart2 .boxEnd .star {
+    font-size: 16px;
+  }
+  .ProductBox .boxPart2 .boxEnd .ratingNumber {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+  }
+  .ProductBox .boxPart2 .boxEnd .soldAmount {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+  }
+}

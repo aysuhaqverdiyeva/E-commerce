@@ -1,0 +1,98 @@
+.catagoryBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 1.5px solid #e4e9ee;
+  padding: 24px;
+  max-height: 133.33px;
+}
+.catagoryBox .catagoryImg {
+  width: 32px;
+  height: 32px;
+}
+.catagoryBox .catagoryTitle {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.6px;
+  text-align: center;
+}
+.catagoryBox .catagoryAmount {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #818B9C;
+  text-align: center;
+}
+
+@media only screen and (min-width: 767px) {
+  .catagoryBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 8px;
+    padding: 21px;
+  }
+  .catagoryBox .catagoryImg {
+    width: 42px;
+    height: 42px;
+  }
+  .catagoryBox .catagoryTitle {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+  }
+  .catagoryBox .catagoryAmount {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .catagoryBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+    padding: 29px 35px;
+    min-height: 180px;
+  }
+  .catagoryBox .catagoryImg {
+    width: 52px;
+    height: 52px;
+  }
+  .catagoryBox .catagoryTitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .catagoryBox .catagoryAmount {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+  }
+}

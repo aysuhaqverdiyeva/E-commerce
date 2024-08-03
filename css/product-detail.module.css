@@ -1,0 +1,851 @@
+.productDetail {
+  margin: 25px 5% 45px 5%;
+}
+.productDetail .productInfos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 42px;
+  border-bottom: 2px solid #e4e9ee;
+  margin-top: 52px;
+}
+.productDetail .productInfos .productInfos_slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  height: 100%;
+  padding: 0px 10px;
+  color: #818b9c;
+  cursor: pointer;
+}
+.productDetail .productInfos .productInfos_slide_active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.6px;
+  height: 100%;
+  padding: 0px 10px;
+  color: #1e4c2f;
+  border-bottom: 2px solid #1e4c2f;
+}
+.productDetail .merchantBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px 0px;
+}
+.productDetail .merchantBox .merchantBox_title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+}
+.productDetail .merchantBox .merchantBox_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+.productDetail .merchantBox .merchantBox_main .merchantBox_main1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 13px;
+}
+.productDetail .merchantBox .merchantBox_main .merchantBox_main1 img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50px;
+  border: 2px solid #f1f1f1;
+  background-color: white;
+}
+.productDetail .merchantBox .merchantBox_main .merchantBox_main1 .merchantBox_main1_part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.productDetail .merchantBox .merchantBox_main .merchantBox_main1 .merchantBox_main1_part h1 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.6px;
+}
+.productDetail .merchantBox .merchantBox_main .merchantBox_main1 .merchantBox_main1_part h2 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #818b9c;
+}
+.productDetail .merchantBox .merchantBox_main .merchantBox_main1 .merchantBox_main1_part .greenbtns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+.productDetail .merchantBox .merchantBox_main .merchantBox_main1 .merchantBox_main1_part .greenbtns .greenBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 29px;
+  padding: 0px 5px;
+  border: 1px solid rgba(29, 158, 52, 0.1019607843);
+  border-radius: 4px;
+  background-color: rgba(29, 158, 52, 0.1019607843);
+  color: #1d9e34;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19.2px;
+}
+.productDetail .merchantBox .merchantBox_main2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.productDetail .merchantBox .merchantBox_main2 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  width: 155px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #1e4c2f;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.6px;
+}
+.productDetail .merchantBox .merchantBox_main2 button div {
+  color: #1e4c2f;
+}
+.productDetail .merchantBox .merchantBox_main2 button .chat {
+  font-size: 24px;
+  color: #1e4c2f;
+}
+.productDetail .merchantBox .merchantBox_main2 button .store {
+  font-size: 24px;
+  color: #1e4c2f;
+}
+.productDetail .pdBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px 0px;
+}
+.productDetail .pdBox .pdTitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25.2px;
+  width: 80%;
+}
+.productDetail .pdBox .pdContent {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #818b9c;
+  margin-bottom: 10px;
+}
+.productDetail .pdBox .pdMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+.productDetail .pdBox .pdMain .pdMain_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 7px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+.productDetail .pdBox .pdMain .pdMain_box .pdMain_box_title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+}
+.productDetail .pdBox .pdMain .pdMain_box table {
+  width: 100%;
+}
+.productDetail .pdBox .pdMain .pdMain_box table .grayRow {
+  background-color: #f9f9f9;
+  height: 44px;
+}
+.productDetail .pdBox .pdMain .pdMain_box table .grayRow .paleType {
+  color: #818b9c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  width: 45%;
+  padding-left: 10px;
+}
+.productDetail .pdBox .pdMain .pdMain_box table .grayRow .darkType {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22.4px;
+  width: 55%;
+  padding-left: 10px;
+}
+.productDetail .pdBox .pdMain .pdMain_box table .whiteRow {
+  height: 44px;
+}
+.productDetail .pdBox .pdMain .pdMain_box table .whiteRow .paleType {
+  color: #818b9c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  width: 45%;
+  padding-left: 10px;
+}
+.productDetail .pdBox .pdMain .pdMain_box table .whiteRow .darkType {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22.4px;
+  width: 55%;
+  padding-left: 10px;
+}
+.productDetail .pdBox .pdMain .pdMain_box .itb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+.productDetail .pdBox .pdMain .pdMain_box .itb .itb_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.productDetail .pdBox .pdMain .pdMain_box .itb .itb_row .tickBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 24px;
+  height: 24px;
+  background-color: red;
+  border-radius: 50px;
+  background-color: #1d9e34;
+}
+.productDetail .pdBox .pdMain .pdMain_box .itb .itb_row .tickBox .tick {
+  font-size: 16px;
+  color: white;
+}
+.productDetail .pdBox .pdMain .pdMain_box .itb .itb_row h1 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22.4px;
+}
+.productDetail .pdBox .pdMain .pdMain_box ul {
+  width: 100%;
+}
+.productDetail .pdBox .pdMain .pdMain_box ul li {
+  list-style: none;
+  color: #818b9c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.productDetail .related {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px 0px;
+  width: 100%;
+}
+.productDetail .related .related_start {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.productDetail .related .related_start .related_title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25.2px;
+}
+.productDetail .related .related_start .related_btn {
+  width: 94px;
+  height: 32px;
+}
+.productDetail .related .related_boxes {
+  display: grid;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr;
+}
+.productDetail .related .related_boxes .link {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 767px) {
+  .productDetail {
+    margin: 40px 8% 80px 8%;
+  }
+  .productDetail .productInfos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 50px;
+  }
+  .productDetail .productInfos .productInfos_slide {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+    padding: 0px 20px;
+  }
+  .productDetail .productInfos .productInfos_slide_active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    padding: 0px 20px;
+  }
+  .productDetail .merchantBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 20px;
+    padding: 30px 0px;
+  }
+  .productDetail .merchantBox .merchantBox_title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .productDetail .merchantBox .merchantBox_main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .productDetail .merchantBox .merchantBox_main .merchantBox_main1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 13px;
+  }
+  .productDetail .merchantBox .merchantBox_main .merchantBox_main1 img {
+    width: 84px;
+    height: 84px;
+  }
+  .productDetail .merchantBox .merchantBox_main .merchantBox_main1 .merchantBox_main1_part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 5px;
+  }
+  .productDetail .merchantBox .merchantBox_main .merchantBox_main1 .merchantBox_main1_part h1 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+  }
+  .productDetail .merchantBox .merchantBox_main .merchantBox_main1 .merchantBox_main1_part h2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+  .productDetail .merchantBox .merchantBox_main .merchantBox_main1 .merchantBox_main1_part .greenbtns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5px;
+  }
+  .productDetail .merchantBox .merchantBox_main .merchantBox_main1 .merchantBox_main1_part .greenbtns .greenBtn {
+    height: 32px;
+    padding: 0px 8px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.4px;
+  }
+  .productDetail .merchantBox .merchantBox_main2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5px;
+    width: auto;
+  }
+  .productDetail .merchantBox .merchantBox_main2 button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5px;
+    width: auto;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    padding: 0px 14px;
+  }
+  .productDetail .pdBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 15px;
+    padding: 30px 0px;
+  }
+  .productDetail .pdBox .pdTitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    width: auto;
+  }
+  .productDetail .pdBox .pdContent {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    margin-bottom: 15px;
+    width: 80%;
+  }
+  .productDetail .pdBox .pdMain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 30px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+  }
+  .productDetail .pdBox .pdMain .pdMain_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 12px;
+    width: auto;
+  }
+  .productDetail .pdBox .pdMain .pdMain_box table {
+    width: auto;
+  }
+  .productDetail .pdBox .pdMain .pdMain_box table .grayRow {
+    height: 42px;
+  }
+  .productDetail .pdBox .pdMain .pdMain_box table .whiteRow {
+    height: 42px;
+  }
+  .productDetail .pdBox .pdMain .pdMain_box .itb .itb_row h1 {
+    width: 90%;
+  }
+  .productDetail .pdBox .pdMain .pdMain_box ul {
+    width: auto;
+  }
+  .productDetail .related {
+    padding: 30px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 40px;
+  }
+  .productDetail .related .related_start .related_title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39.2px;
+  }
+  .productDetail .related .related_start .related_btn {
+    width: 112px;
+    height: 42px;
+  }
+  .productDetail .related .related_boxes {
+    display: grid;
+    justify-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .productDetail {
+    margin: 60px 12% 80px 12%;
+  }
+  .productDetail .productInfos {
+    height: 53px;
+  }
+  .productDetail .productInfos .productInfos_slide {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.8px;
+    padding: 0px 30px;
+  }
+  .productDetail .productInfos .productInfos_slide_active {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25.2px;
+    padding: 0px 30px;
+  }
+  .productDetail .merchantBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 25px;
+    padding: 40px 0px;
+  }
+  .productDetail .merchantBox .merchantBox_main .merchantBox_main1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 18px;
+  }
+  .productDetail .merchantBox .merchantBox_main .merchantBox_main1 .merchantBox_main1_part h1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25.2px;
+  }
+  .productDetail .merchantBox .merchantBox_main .merchantBox_main1 .merchantBox_main1_part h2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+  }
+  .productDetail .merchantBox .merchantBox_main .merchantBox_main1 .merchantBox_main1_part .greenbtns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 8px;
+  }
+  .productDetail .merchantBox .merchantBox_main2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 15px;
+  }
+  .productDetail .merchantBox .merchantBox_main2 button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 8px;
+    height: 53px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25.2px;
+    padding: 0px 18px;
+  }
+  .productDetail .pdBox {
+    padding: 40px 0px;
+  }
+  .productDetail .pdBox .pdTitle {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39.2px;
+  }
+  .productDetail .pdBox .pdContent {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    margin-bottom: 20px;
+    width: 71%;
+  }
+  .productDetail .pdBox .pdMain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .productDetail .pdBox .pdMain .pdMain_box table .grayRow {
+    height: 46px;
+  }
+  .productDetail .pdBox .pdMain .pdMain_box table .whiteRow {
+    height: 46px;
+  }
+  .productDetail .related {
+    padding: 40px 0px;
+  }
+  .productDetail .related .related_start .related_btn {
+    width: 112px;
+    height: 38px;
+    cursor: pointer;
+  }
+  .productDetail .related .related_boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: space-between;
+        -ms-flex-align: space-between;
+            align-items: space-between;
+    gap: 30px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+}

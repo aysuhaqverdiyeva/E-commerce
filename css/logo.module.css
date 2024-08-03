@@ -1,0 +1,93 @@
+.logoSaver {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.logoSaver .logoImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 31.54px;
+  height: 31.54px;
+  border-radius: 10px;
+  background-color: #1e4c2f;
+  position: relative;
+}
+@media only screen and (min-width: 767px) {
+  .logoSaver .logoImg {
+    width: 32.65px;
+    height: 32.65px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .logoSaver .logoImg {
+    width: 39.08px;
+    height: 39.08px;
+  }
+}
+.logoSaver .logoImg .logoBody {
+  width: 17.74px;
+  height: 15.77px;
+}
+@media only screen and (min-width: 767px) {
+  .logoSaver .logoImg .logoBody {
+    width: 18.37px;
+    height: 16.33px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .logoSaver .logoImg .logoBody {
+    width: 21.98px;
+    height: 19.54px;
+  }
+}
+.logoSaver .logoImg .logoLine {
+  position: absolute;
+  width: 7.88px;
+  height: 4px;
+}
+@media only screen and (min-width: 767px) {
+  .logoSaver .logoImg .logoLine {
+    width: 8.16px;
+    height: 4.14px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .logoSaver .logoImg .logoLine {
+    width: 9.77px;
+    height: 4.95px;
+  }
+}
+.logoSaver .lenny {
+  font-size: 23.65px;
+  font-weight: 600;
+  line-height: 27.6px;
+}
+@media only screen and (min-width: 767px) {
+  .logoSaver .lenny {
+    font-size: 24.49px;
+    font-weight: 600;
+    line-height: 28.57px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .logoSaver .lenny {
+    font-size: 29.31px;
+    font-weight: 600;
+    line-height: 34.19px;
+  }
+}

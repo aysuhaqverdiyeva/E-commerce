@@ -1,0 +1,93 @@
+.modal_wrapper {
+  z-index: 100;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 327px;
+  -webkit-transform: translate(-50%, -51%);
+          transform: translate(-50%, -51%);
+}
+.modal_wrapper .register_modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  border-radius: 8px;
+  padding: 32px 24px;
+  background-color: white;
+  z-index: 100;
+}
+.modal_wrapper .register_modal img {
+  height: 80px;
+  width: 80px;
+}
+.modal_wrapper .register_modal h1 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25.2px;
+  text-align: center;
+}
+.modal_wrapper .register_modal p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #818B9C;
+  text-align: center;
+}
+.modal_wrapper .register_modal .signInBtn {
+  color: white;
+  background-color: #1e4c2f;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.6px;
+  padding: 11px 10px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 767px) {
+  .modal_wrapper {
+    width: 440px;
+    -webkit-transform: translate(-50%, -51%);
+            transform: translate(-50%, -51%);
+  }
+  .modal_wrapper .register_modal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 32px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .modal_wrapper {
+    width: 440px;
+  }
+  .modal_wrapper .register_modal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 32px;
+  }
+}

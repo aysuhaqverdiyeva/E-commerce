@@ -1,0 +1,201 @@
+.pdSwiper {
+  width: 100%;
+  height: 260px;
+  position: relative;
+}
+.pdSwiper .swiper {
+  width: 100%;
+  height: 100%;
+}
+.pdSwiper .swiper .swiperSlide {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f6f6f6;
+  border-radius: 9px;
+}
+.pdSwiper .swiper .swiperSlide div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: initial;
+  height: 260px;
+  padding: 10px 0px;
+}
+.pdSwiper .swiper .swiperSlide div img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+  height: 80%;
+}
+
+.pdSwiperBottom {
+  margin-top: 12px;
+  width: 100%;
+  height: 75.8px;
+}
+.pdSwiperBottom .swiperBottom {
+  width: 100%;
+  height: 100%;
+}
+.pdSwiperBottom .swiperBottom .swiperSlideBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  width: 75.8px;
+  height: 75.8px;
+}
+.pdSwiperBottom .swiperBottom .swiperSlideBottom div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #f6f6f6;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.pdSwiperBottom .swiperBottom .swiperSlideBottom div img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 80%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media only screen and (min-width: 767px) {
+  .pdSwiper {
+    width: 100%;
+    height: 380px;
+  }
+  .pdSwiper .swiper .swiperSlide div {
+    height: 380px;
+  }
+  .pdSwiper .swiper_button_next {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(11, 15, 14, 0.1607843137);
+    width: 33px;
+    height: 33px;
+    border-radius: 50px;
+    position: absolute;
+    right: 24px;
+    top: 45%;
+    cursor: pointer;
+    z-index: 99;
+  }
+  .pdSwiper .swiper_button_next .angle-right {
+    font-size: 12px;
+    font-size: 40px;
+  }
+  .pdSwiper .swiper_button_prev {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(11, 15, 14, 0.1607843137);
+    width: 33px;
+    height: 33px;
+    border-radius: 50px;
+    position: absolute;
+    left: 24px;
+    top: 45%;
+    cursor: pointer;
+    z-index: 99;
+  }
+  .pdSwiper .swiper_button_prev .angle-left {
+    font-size: 12px;
+    font-size: 40px;
+  }
+  .pdSwiperBottom {
+    margin-top: 16px;
+    width: 100%;
+    height: 99px;
+  }
+  .pdSwiperBottom .swiperBottom {
+    height: 100%;
+  }
+  .pdSwiperBottom .swiperBottom .swiperSlideBottom {
+    height: 100%;
+  }
+  .pdSwiperBottom .swiperBottom .swiperSlideBottom div {
+    width: 99px;
+    height: 99px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .pdSwiper {
+    width: 100%;
+    height: 460px;
+  }
+  .pdSwiper .swiper .swiperSlide div {
+    height: 460px;
+  }
+  .pdSwiper .swiper_button_next {
+    right: 16px;
+    top: 47%;
+  }
+  .pdSwiper .swiper_button_prev {
+    left: 16px;
+    top: 47%;
+  }
+  .pdSwiperBottom {
+    width: 100%;
+    height: 134px;
+  }
+  .pdSwiperBottom .swiperBottom .swiperSlideBottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0px;
+  }
+  .pdSwiperBottom .swiperBottom .swiperSlideBottom div {
+    width: 134px;
+    height: 134px;
+  }
+}

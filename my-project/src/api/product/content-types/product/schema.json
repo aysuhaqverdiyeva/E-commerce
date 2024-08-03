@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "place": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "rating": {
+      "type": "decimal",
+      "max": 5,
+      "min": 0
+    },
+    "isWishlist": {
+      "type": "boolean",
+      "default": false
+    },
+    "color": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sliderImgs": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "type": {
+      "type": "string"
+    },
+    "sold": {
+      "type": "integer"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "products"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "XS",
+        "S",
+        "M"
+      ]
+    }
+  }
+}
